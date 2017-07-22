@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Acme Categories</title>
+	<link rel="stylesheet" href="/stylesheets/styles.css">
+</head>
+<body>
+	<div class="main">
+		<div class="wrapper">
+			<div class="menu">
+				<a href="/"><h2 class='title'>Acme Categories</h2></a>
+				<div class="cat-links">
+					{% for categories in categories%}
+					<a href="/categories/{{categories}}/products">{{categories}}</a>
+				{% endfor %}
+				</div>
+			</div>
+			{% block content %}{% endblock %}
+		</div>
+	</div>
+</body>
+</html>

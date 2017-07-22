@@ -1,0 +1,78 @@
+ @import url('https://fonts.googleapis.com/css?family=Lato');
+ @import url('https://fonts.googleapis.com/css?family=Rubik');
+
+body{
+	background-color: cornsilk;
+}
+
+.main {
+    font-family: 'Lato', sans-serif;
+    font-size:1.25rem;
+}
+.main section {
+	margin:2em 0;
+}
+.wrapper {
+	max-width:980px;
+	margin:0 auto;
+}
+
+.menu {
+	border-bottom: 2px solid #FFD5C2;
+}
+
+.title {
+	font-weight:300;
+	display: inline-block;
+	margin-right:.75em;
+	color:#01295F;
+}
+
+.products {
+	border:2px solid #001A23;
+	border-radius: 6px;
+	margin-bottom:.5em;
+	padding:0 1.25em;
+}
+
+.products .index {
+	padding:5px 3px 0 0;
+}
+
+.cat-links, h2, h4 {
+	display: inline-block;
+}
+
+.cat-links a {
+	margin:0 .25em;
+	text-transform: capitalize;
+}
+.floatLeft {
+	float:left;
+}
+
+.floatRight {
+	float:right;
+}
+
+.clear {
+	clear:both;
+}
+
+.delete {
+	color:#ff5252;
+}
+
+.deleteProd {
+	color:#F28F3B;
+}
+
+button {
+	border: none;
+    background-color: inherit;
+    padding:15px 0 0;
+}
+
+button:hover {
+	cursor:pointer;
+}
